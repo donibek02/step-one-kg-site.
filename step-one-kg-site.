@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Step One KG - Мужская обувь</title>
+<style>
+  body {
+    margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9f9f9; color: #222;
+  }
+  header {
+    background: url('https://instagram.fbst3-1.fna.fbcdn.net/v/t51.2885-15/e35/295326122_146795383618269_4941390297929255913_n.jpg?_nc_ht=instagram.fbst3-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=0V_s5IcVmgwAX87FvnD&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AT8Scf5koBnqk44Lt5TYzQHtHvTboqszvP8kvlZpCdX5fA&oe=649DFF87&_nc_sid=8fd12b') no-repeat center center/cover;
+    height: 50vh; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; text-shadow: 2px 2px 4px #000;
+    text-align: center; padding: 0 15px;
+  }
+  header h1 {
+    font-size: 3rem; margin: 0;
+  }
+  header p {
+    font-size: 1.25rem; margin-top: 0.5rem;
+  }
+  nav {
+    background: #333; padding: 10px 0; text-align: center;
+    position: sticky; top: 0; z-index: 100;
+  }
+  nav a {
+    color: white; margin: 0 10px; text-decoration: none; font-weight: 600;
+    font-size: 1rem;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  main {
+    max-width: 1000px; margin: 30px auto; padding: 0 15px;
+  }
+  h2 {
+    border-bottom: 2px solid #333; padding-bottom: 10px;
+    font-size: 1.8rem;
+  }
+  .gallery {
+    display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 15px; margin-top: 20px;
+  }
+  .gallery img {
+    width: 100%; height: 150px; object-fit: cover; border-radius: 10px; box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+  }
+  .gallery img:hover {
+    transform: scale(1.05);
+  }
+  .product {
+    background: white; padding: 15px; margin-bottom: 20px; border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  }
+  .product h3 {
+    margin-top: 0; font-size: 1.4rem;
+  }
+  .product p {
+    margin-bottom: 10px; font-size: 1rem;
+  }
+  .btn-order {
+    display: inline-block; background: #25D366; color: white; padding: 10px 20px;
+    border-radius: 25px; font-weight: 700; text-decoration: none;
+    box-shadow: 0 3px 6px rgba(37, 211, 102, 0.6);
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+  }
+  .btn-order:hover {
+    background: #128C4A;
+  }
+  section {
+    margin-bottom: 40px;
+  }
+  footer {
+    text-align: center; padding: 20px 10px; background: #333; color: white; margin-top: 40px;
+    font-size: 0.9rem;
+  }
+  footer a {
+    color: #25D366; text-decoration: none;
+  }
+  /* Мобильное меню */
+  @media (max-width: 480px) {
+    header h1 {
+      font-size: 2.2rem;
+    }
+    header p {
+      font-size: 1rem;
+    }
+    nav a {
+      display: block;
+      margin: 8px 0;
+      font-size: 1.1rem;
+    }
+    .gallery img {
+      height: 120px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Step One KG</h1>
+  <p>Качественная мужская обувь для стильных мужчин Кыргызстана</p>
+</header>
+
+<nav>
+  <a href="#about">О магазине</a>
+  <a href="#catalog">Каталог</a>
+  <a href="#delivery">Доставка и оплата</a>
+  <a href="#reviews">Отзывы</a>
+  <a href="#contacts">Контакты</a>
+</nav>
+
+<main>
+
+<section id="about">
+  <h2>О магазине</h2>
+  <p>Step One KG — это качественная мужская обувь для активных и стильных мужчин Кыргызстана. Мы предлагаем удобные и модные кроссовки от популярных брендов по доступным ценам.</p>
+</section>
+
+<section id="gallery">
+  <h2>Галерея товаров</h2>
+  <div class="gallery">
+    <img src="https://instagram.fbst3-1.fna.fbcdn.net/v/t51.2885-15/e35/295326122_146795383618269_4941390297929255913_n.jpg?_nc_ht=instagram.fbst3-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=0V_s5IcVmgwAX87FvnD&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AT8Scf5koBnqk44Lt5TYzQHtHvTboqszvP8kvlZpCdX5fA&oe=649DFF87&_nc_sid=8fd12b" alt="Кроссовки 1" />
+    <img src="https://instagram.fbst3-1.fna.fbcdn.net/v/t51.2885-15/e35/294683115_621678602678415_4141882526840410643_n.jpg?_nc_ht=instagram.fbst3-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=edlhqTptD1QAX_DhjFa&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AT8m7m_LXQ7Vbmr-8lzw3YqMGEd5i37KKF3Lj6Gu0_x7zQ&oe=649E5E28&_nc_sid=8fd12b" alt="Кроссовки 2" />
+    <img src="https://instagram.fbst3-1.fna.fbcdn.net/v/t51.2885-15/e35/294402825_1846098851445597_3585294259337589643_n.jpg?_nc_ht=instagram.fbst3-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=OJGr1nVvtJ4AX9FW0Qz&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AT8-4AX48fHNSUyscGb0KaK3In4-M_9uNq-NLHu5qaQGPA&oe=649DD9F6&_nc_sid=8fd12b" alt="Кроссовки 3" />
+    <img src="https://instagram.fbst3-1.fna.fbcdn.net/v/t51.2885-15/e35/295140904_426882606088233_6901588160551570876_n.jpg?_nc_ht=instagram.fbst3-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=8vqjEqhQ5vkAX9RVFY-&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AT8_rRObYO_VNby2rMr1k9wqOQQ52RG8LlX7XcTsPAjUkw&oe=649E8A2A&_nc_sid=8fd12b" alt="Кроссовки 4" />
+    <img src="https://instagram.fbst3-1.fna.fbcdn.net/v/t51.2885-15/e35/295235122_595556862281667_4929824040605246843_n.jpg?_nc_ht=instagram.fbst3-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=MoRmNDHQg7EAX-Jjmeu&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AT8ow2NZRWGCvMQYJo7bwT7vN4lh5JYNQmvZDRHz5rQTOQ&oe=649DCD0C&_nc_sid=8fd
